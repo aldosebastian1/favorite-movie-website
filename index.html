@@ -1,83 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="st">
         <title>Favorite Movie Website</title>
         <link rel="stylesheet" href="style.css">
     </head>
-
     <body>
-        <header>
-            <h1>Favorite Movie Website</h1>
-            <p>Discover my favorite movie selections below!</p>
-            <nav>
-                <ul>
-                    <li><a href="#film-list">Movies</a></li>
-                    <li><a href="#external-resources">External Resources</a></li>
-                    <li><a href="#why-watch">Why Watch?</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section id="film-list">
-                <h2>My Favorite Movies</h2>
-                <p>Here are three movies I highly recommend to watch, each with its own uniqueness and appeal:</p>
-                <article>
-                    <figure>
-                        <img src="./image/ejen-ali-movie.jpg"
-                            alt="Poster of Ejen Ali The Movie, an action-packed Malaysian animation featuring a young secret agent."
-                            width="200" height="300">
-                        <figcaption>
-                            <h3>Ejen Ali The Movie</h3>
-                            <p>An action animation film from Malaysia that tells the adventure of Ejen Ali, a boy who becomes a secret agent and must save the city of Cyberaya from dangerous threats. Perfect for families and animation fans.</p>
-                        </figcaption>
-                    </figure>
-                </article>
-                <article>
-                    <figure>
-                        <img src="./image/demon-slayer-movie.jpg"
-                            alt="Poster of Demon Slayer: Mugen Train, a Japanese anime film with Tanjiro and friends on a train fighting demons."
-                            width="200" height="300">
-                        <figcaption>
-                            <h3>Demon Slayer: Mugen Train</h3>
-                            <p>A Japanese anime film continuing the story of Tanjiro and his friends on a mission aboard the Mugen Train to fight a powerful demon threatening the passengers. Stunning visuals and an emotional story.</p>
-                        </figcaption>
-                    </figure>
-                </article>
-                <article>
-                    <figure>
-                        <img src="./image/minecraf-movie.jpg"
-                            alt="Poster of Minecraft The Movie, an adventure inspired by the Minecraft game in a creative blocky world."
-                            width="200" height="300">
-                        <figcaption>
-                            <h3>Minecraft The Movie</h3>
-                            <p>An adventure film inspired by the Minecraft game, following the journey of characters in a blocky world full of creativity and challenges. Great for all ages.</p>
-                        </figcaption>
-                    </figure>
-                </article>
+        <div class="container">
+            <header>
+                <h1>Favorite Movie Website</h1>
+                <p>Discover my favorite movie selections below!</p>
                 <nav>
-                    <h2 id="external-resources">External Resources</h2>
                     <ul>
-                        <li><a href="https://www.imdb.com/" target="_blank" rel="noopener">Visit IMDb for more movies</a></li>
-                        <li><a href="https://m.21cineplex.com/id" target="_blank" rel="noopener">Find a cinema to watch movies (21 Cineplex Indonesia)</a></li>
+                        <li><a href="#film-list">Movies</a></li>
+                        <li><a href="#external-resources">External
+                                Resources</a></li>
+                        <li><a href="#why-watch">Why Watch?</a></li>
                     </ul>
                 </nav>
-                <section>
-                    <h2 id="why-watch">Why Watch These Movies?</h2>
-                    <ul>
-                        <li><strong>Ejen Ali The Movie</strong>: Local animation with international quality and an inspiring story.</li>
-                        <li><strong>Demon Slayer: Mugen Train</strong>: Exciting action, beautiful visuals, and a strong story of friendship.</li>
-                        <li><strong>Minecraft The Movie</strong>: Teaches creativity, imagination, and teamwork.</li>
-                    </ul>
+            </header>
+
+            <main>
+                <section id="film-list">
+                    <h2>My Favorite Movies</h2>
+                    <p>Here are three movies I highly recommend to watch, each
+                        with its own uniqueness and appeal:</p>
+
+                    <div class="movies">
+                        <div class="movie-card">
+                            <img src="./image/ejen-ali-movie.jpg"
+                                alt="Poster of Ejen Ali The Movie, an action-packed Malaysian animation featuring a young secret agent."
+                                width="200" height="300">
+                            <h3>Ejen Ali The Movie</h3>
+                            <p>An action animation film from Malaysia that tells
+                                the adventure of Ejen Ali, a boy who becomes a
+                                secret agent and must save the city of Cyberaya
+                                from dangerous threats. Perfect for families and
+                                animation fans.</p>
+                        </div>
+
+                        <div class="movie-card">
+                            <img src="./image/demon-slayer-movie.jpg"
+                                alt="Poster of Demon Slayer: Mugen Train, a Japanese anime film with Tanjiro and friends on a train fighting demons."
+                                width="200" height="300">
+                            <h3>Demon Slayer: Mugen Train</h3>
+                            <p>A Japanese anime film continuing the story of
+                                Tanjiro and his friends on a mission aboard the
+                                Mugen Train to fight a powerful demon
+                                threatening the passengers. Stunning visuals and
+                                an emotional story.</p>
+                        </div>
+
+                        <div class="movie-card">
+                            <img src="./image/minecraft-movie.jpg"
+                                alt="Poster of Minecraft The Movie, an adventure inspired by the Minecraft game in a creative blocky world."
+                                width="200" height="300">
+                            <h3>Minecraft The Movie</h3>
+                            <p>An adventure film inspired by the Minecraft game,
+                                following the journey of characters in a blocky
+                                world full of creativity and challenges. Great
+                                for all ages.</p>
+                        </div>
+                        <div class="movie-card">
+                            <img src="./image/john-wick.webp"
+                                alt="Poster of John Wick, an action movie featuring Keanu Reeves as a legendary assassin."
+                                width="200" height="300">
+                            <h3>John Wick</h3>
+                            <p>John Wick is a thrilling action film starring
+                                Keanu Reeves as a legendary assassin who comes
+                                out of retirement to seek vengeance. Known for
+                                its intense fight scenes and stylish
+                                cinematography, this movie is a must-watch for
+                                action fans.</p>
+                        </div>
+                    </div>
                 </section>
-            </section>
-        </main>
+
+                <section id="external-resources">
+                    <h2>External Resources</h2>
+                    <p>Explore these resources to enhance your movie
+                        experience:</p>
+
+                    <div class="resources">
+                        <a href="https://www.imdb.com/" target="_blank"
+                            rel="noopener" class="resource-link">
+                            <h3>Visit IMDb</h3>
+                            <p>For more movies and ratings</p>
+                        </a>
+
+                        <a href="https://m.21cineplex.com/id" target="_blank"
+                            rel="noopener" class="resource-link">
+                            <h3>Find Cinema</h3>
+                            <p>21 Cineplex Indonesia</p>
+                        </a>
+                    </div>
+                </section>
+
+                <section id="why-watch">
+                    <h2>Why Watch These Movies?</h2>
+                    <p>Each film offers unique value and experiences:</p>
+
+                    <div class="reasons">
+                        <div class="reason">
+                            <h4>Ejen Ali The Movie</h4>
+                            <p>Local animation with international quality and an
+                                inspiring story.</p>
+                        </div>
+
+                        <div class="reason">
+                            <h4>Demon Slayer: Mugen Train</h4>
+                            <p>Exciting action, beautiful visuals, and a strong
+                                story of friendship.</p>
+                        </div>
+
+                        <div class="reason">
+                            <h4>Minecraft The Movie</h4>
+                            <p>Teaches creativity, imagination, and
+                                teamwork.</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
         <footer>
             <p>&copy; 2025 Favorite Movie Website by Aldo Sebastian</p>
         </footer>
     </body>
-
 </html>
