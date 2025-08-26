@@ -1,0 +1,124 @@
+
+body {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+nav li a:hover {
+    color: #ffd600;
+    transition: all 0.2s ease;
+}
+
+nav h2 {
+    color: #0d47a1;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+section p {
+    text-align: center;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto 12px auto;
+}
+
+article {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+figure {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+figcaption h3, figcaption p {
+    text-align: center;
+}
+
+nav h2 {
+    color: #0d47a1;
+}
+
+ul li {
+    color: #2334cb;
+    font-size: 17px;
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+li strong {
+    color: #2a37a9;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+}
