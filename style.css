@@ -220,3 +220,23 @@ footer {
   padding: 20px 0;
   margin-top: 40px;
 }
+
+@media (min-width: 772px) {
+  .movie-card {
+    width: 45vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2vw;
+  }
+
+  .movie-card img {
+    max-height: 30vh;
+    width: auto;
+  }
+
+  @media (min-width: 998px) {
+    .movie-card {
+      width: 30vw;
+    }
+  }
+}
